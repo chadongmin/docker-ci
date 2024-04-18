@@ -16,7 +16,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: chadongmin/nodejs-ci
+          images: chadongmin/springboot-ci
           tag-semver: |
             {{version}}
             {{major}}.{{minor}}
